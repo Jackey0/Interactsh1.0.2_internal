@@ -1,6 +1,7 @@
 Interactsh内网版，基于Interactsh 1.0.2版本
  通过IP地址的方式接受http请求和ldap请求，不需要用到域名
  
+ 主要用于使用nuclei在内网测试时，需要借助dnslog的漏洞没有办法探测。
  
  使用方式：
  ./interactsh-server -ip 192.168.85.1
